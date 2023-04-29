@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "main_container">
+    <div class="welcome"><h2>Welcome Back!</h2>
+    <div class="login-page">
+        <div class="form">
+          <!-- <p>{{authError}}</p> -->
+          <form #sellersignin = "ngForm" class ="login-form">
+            <input type="text" ngModel name= "email" placeholder="Email Address" />
+            <input type="password" ngModel name = "password" placeholder="Password" />
+            <button>Signin</button>
+           
+          </form>
+        </div>
+      </div>
+   <div class="options"><h5>New Seller? Click here to <a routerLink ="/seller-signup">sign up</a></h5>
+   <h5 class="signup">Or up sign with: </h5></div> 
+   <div class="logo">
+    <img [src]="img1" alt="logo">
+    <img [src]="img2" alt="logo">
+    <img [src]="img3" alt="logo">
+   </div>
+</div>
+   <div class = "newuser">
+    <h1 class = "nw">NEW SELLER?</h1>
+   <div class="signupbut"><button mat-raised-button class="btngetstarted"><a routerLink="/seller-signup">SignUp</a></button></div>
+
+   </div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to right,rgb(241, 150, 150) 80%, rgb(255, 216, 222) 30%);
+    height:100vh;
+}
+
+.homepagetext{
+    margin-top: 185px
+}
+
+.homepagetext h1{
+    margin-left: 250px;
+    color: white;
+    font-size: 70px;
+    z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.homepagetext h4{
+    margin-left: 250px;
+    color: rgb(234, 226, 226);
+    font-size: 30px;
+    z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.homepagetext h2{
+    margin-left: 250px;
+    color:rgb(234, 226, 226);
+    font-size: 25px;
+    z-index: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.homepagetext button{
+    height: 75px;
+    /* height : vh unit */
+    width: 500px; 
+    /* width : vw unit */
+    margin-left: 200px;
+    margin-top: 50px;
+    color: black;
+    font-size: x-large;
+    background-color: white;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+img{
+    height: 550px;
+    width: 450px;
+    position: absolute;
+    left: 1135px;
+    bottom: 111px;
+    z-index: 2;
+}

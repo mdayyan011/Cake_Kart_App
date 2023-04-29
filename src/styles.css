@@ -1,0 +1,40 @@
+/* 
+body{
+    background: linear-gradient(to right,rgb(241, 150, 150) 80%, rgb(255, 216, 222) 30%);
+} */
+
+.main {
+    margin-left: 5%;
+    margin-top: 3%;
+    color: white;
+    font-size: xx-large;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+
+    display: inline-flex;
+    list-style-type: none;
+    padding-top: 0;
+    margin-top: 0px;
+    margin-right: 190px;
+    font-size: x-large;
+
+}
+
+.nav li {
+    padding-left: 50px;
+    padding-top: 50px;
+    offset-distance: 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

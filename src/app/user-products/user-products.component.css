@@ -1,0 +1,57 @@
+h1.menu{
+    height: 30px;
+   
+  color:rgba(34, 10, 114, 0.86);
+  margin-left: 95vh;
+
+}
+
+body{
+ height: 1200vh;
+   background: rgb(219, 221, 231);
+}
+div.shadow-lg{
+margin-top: 50px;
+}
+
+.product-item img{
+   height: 300px;
+   object-fit: contain;
+}
+.productdetails{
+   font-size: 25px;
+}
+
+.eachproductwrapper{
+   border-width: 1px;
+   border-color: #9ca3af;
+}
+.col-sm-3{
+   width: 370px;
+   margin-left: 100px;
+}
+.product-item{
+   border: 2px solid rgb(172, 135, 150);
+   margin-left: 60px;
+   margin-top: 100px;
+   padding: 3px;
+   width: 400px;
+}
+.name{
+    font-size: large;
+    color: #841033;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.price{
+   
+   color: #841033;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.offer{
+   
+   color:  #841033;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}

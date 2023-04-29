@@ -1,0 +1,60 @@
+.about{
+    float:right;
+    margin-right: 10%;
+    width: 40%;
+    margin-top: 75px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 70px;
+}
+h4{
+    font-size: 20px;
+    margin-right: 50px;
+    height: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+.dealoftheday{
+    height: 75px;
+    width: 250px;
+    border-radius: 50px;
+    margin-top: 75px;
+}
+.dealoftheday:hover{
+    color: rgb(14, 161, 92);
+}
+.dealoftheday h2{
+    font-size: large;
+}
+.buynow{
+    height: 75px;
+    width: 250px;
+    border-radius: 50px;
+    margin-top: 75px;
+    margin-left : 100px;
+}
+.buynow h2{
+    font-size: large;
+}
+.buynow:hover{
+    color: rgb(14, 161, 92);
+}
+.deliveryguy{
+    margin-left: 50px;
+    height: 700px;
+}
+.aboutbuttons{
+    margin-top: 200px;
+
+}
+.aboutustext{
+    font-size: larger;
+    margin-top: 85px;
+}
+body{
+    background-color:aquamarine;
+    height: 100vh;
+}

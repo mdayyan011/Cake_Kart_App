@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><nav class="head">
+ <div class="shadow-lg p-3 mb-2 bg-white rounded">
+<h1 class = "deal">DEAL OF THE DAY</h1>
+<!-- <img [src] = "banner" alt ="logo" class="banner"> -->
+</div> 
+</nav>
+<div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="bg-image hover-zoom">
+        <img [src]="img" class="d-block w-10" alt="Wild Landscape"/>
+      </div>
+        <h3 class="price">PRICE = RS 450</h3>
+        <h3 class="offerprice">OFFERPRICE = RS 250</h3>
+      </div>
+      <div class="carousel-item">
+        <div class="bg-image hover-zoom">
+        <img [src]="img" class="d-block w-10" alt="Camera"/>
+      </div>
+        <h3 class="price">PRICE = RS 450</h3>
+        <h3 class="offerprice">OFFERPRICE = RS 250</h3>
+      </div>
+      <div class="carousel-item">
+        <div class="bg-image hover-zoom">
+        <img [src]="img" class="d-block w-10" alt="Exotic Fruits"/>
+      </div>
+        <h3 class="price">PRICE = RS 450</h3>
+        <h3 class="offerprice">OFFERPRICE = RS 250</h3>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="false"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+    <button mat-raised-button class="ordernow"><h2>ORDER NOW</h2></button>
+  </div>
+</body>
+</html>

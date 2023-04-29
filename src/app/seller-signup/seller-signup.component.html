@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class = "main_container">
+    <div class="welcome">
+      <h2>Welcome Back!</h2>
+      <div class = "button">
+        <button mat-raised-button class="btngetstarted"><a routerLink="/seller-signin"> Signin</a></button>
+      </div>
+    </div>
+
+    <div class="createaccount">
+      <div class="account"><h2>Create Account</h2></div>
+        <div class="form">
+          <form  #signupform = "ngForm" class="login-form">
+            <input type="text" ngModel name="dp" placeholder="Choose file for dp" />
+            <input type="text" ngModel name="firstname" placeholder="First Name" />
+            <input type="text" ngModel name="lastname" placeholder="Last Name" />
+            <input type="text"ngModel name="email" placeholder="Email Address" />
+            <input type="password" ngModel name="password" placeholder="Password" />
+            <input type="password" ngModel name="confirmpassword" placeholder="Confirm Password" />
+            <div class="signinbut"><button mat-raised-button class="btnget">Signup</button></div>
+          </form>
+        </div>
+        <div class="options"><h5>Already a seller? Click here to <a routerLink ="/seller-signin">login</a></h5>   
+          <h5 class="signin">Or up signin with: </h5></div> 
+          <div class="logo">
+           <img [src]="img1" alt="logo">
+           <img [src]="img2" alt="logo">
+           <img [src]="img3" alt="logo">
+          </div>
+    </div>
+   
+  </div>
+</body>
+</html>
+

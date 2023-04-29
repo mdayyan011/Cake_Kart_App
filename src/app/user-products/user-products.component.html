@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ </head>
+ <body>
+  <div>
+  <h1 class="menu">MENU</h1>
+</div>
+ <div class="shadow-lg p-3 mb-5 bg-white rounded"><div class="input-group">
+  <div class="form-outline">
+    <input type="search" id="form1" class="form-control" />
+    <label class="form-label" for="form1">Search</label>
+  </div>
+  <button type="button" class="btn btn-primary">
+    <i class="fas fa-search"></i>
+  </button>
+</div></div>      
+
+
+<div class="productlistwrapper">
+<div class="row">
+
+<div class="col-sm-3" *ngFor="let i of prod_list">
+  <a routerLink = "/detailspage">
+    <div class ="product-item"> 
+      <div class="bg-image hover-zoom">
+      <img [src]="img" alt ="logo"/>
+    </div>
+       <div class="productdetails">
+          <h6 class="name">{{i.pname}}</h6>
+          <h6 class="price">PRICE: {{i.price}}</h6>
+          <h6 class="offer">OFFER PRICE: {{i.offerprice}}</h6>
+       </div>
+    <div class="footer">
+        <a href = "">ADD TO CART</a>
+    </div>    
+</div>
+</a>
+</div>
+    </div>
+    
+</div>
+</body>
+</html>
