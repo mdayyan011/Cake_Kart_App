@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-contacts.component.css']
 })
 export class UserContactsComponent {
-
+  img1 = '../../assets/images/location.png'
+  img2 ='../../assets/images/contact.png'
 }

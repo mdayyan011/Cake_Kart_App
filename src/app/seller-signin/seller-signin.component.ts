@@ -9,4 +9,5 @@ export class SellerSigninComponent {
   img1='../../assets/images/google.png'
   img2='../../assets/images/linkedin.png'
   img3='../../assets/images/facebook.png'
+  
 }

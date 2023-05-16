@@ -25,5 +25,11 @@ h3{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size:20px;
 }
-
+/* body{
+        background: linear-gradient(to right,rgb(241, 150, 150) 80%, rgb(255, 216, 222) 30%);
+        height: 100px;
+} */
+div{
+       background-color: rgb(241, 150, 150);
+}
 

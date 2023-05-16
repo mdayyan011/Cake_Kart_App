@@ -16,7 +16,7 @@ ngOnInit(): void {
   this.router.events.subscribe((val:any)=>{
     if(val.url){
       if(localStorage.getItem('user') && val.url.includes('user')){
-       this.type = "user"
+       this.type = 'user'
        if(localStorage.getItem('user')){
         let userStore = localStorage.getItem('user')
         let userData = userStore && JSON.parse(userStore)[0];
@@ -25,7 +25,7 @@ ngOnInit(): void {
        }
       }
       else{
-       this.type = "default"
+       this.type = 'default'
       }
     }
   })

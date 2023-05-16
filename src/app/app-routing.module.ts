@@ -2,7 +2,6 @@ import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { UserAboutusComponent } from './user-aboutus/user-aboutus.component'; 
 import { UserContactsComponent } from './user-contacts/user-contacts.component';
-import { DetailspageComponent } from './detailspage/detailspage.component';
 import { UserDodComponent } from './user-dod/user-dod.component'; 
 import { HomeComponent } from './home/home.component';
 import { UserProductsComponent } from './user-products/user-products.component';
@@ -12,6 +11,7 @@ import { UserHomeComponent } from './user-home/user-home.component';
 import { AuthGuard } from './auth.guard';
 import { SellerSigninComponent } from './seller-signin/seller-signin.component'; 
 import { SellerSignupComponent } from './seller-signup/seller-signup.component';
+import { UserProductDetailsComponent } from './user-product-details/user-product-details.component'; 
 
 
 
@@ -37,10 +37,6 @@ const routes: Routes = [{
   component: UserProductsComponent
 },
 {
-  path:'detailspage',
-  component: DetailspageComponent
-},
-{
   path:'signup',
   component: SignupComponent
 },
@@ -61,6 +57,10 @@ const routes: Routes = [{
   path:"seller-signup",
   component:SellerSignupComponent
 },
+{
+  path:"user-product_details",
+  component:UserProductDetailsComponent
+}
 ];
 
 @NgModule({

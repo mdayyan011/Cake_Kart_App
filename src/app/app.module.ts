@@ -8,7 +8,6 @@ import { HeaderComponent } from './component/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { HammerModule } from '@angular/platform-browser';
-import { DetailspageComponent } from './detailspage/detailspage.component';
 import { SignupComponent } from './signup/signup.component';
 import { SigninComponent } from './signin/signin.component';
 import {FormsModule} from '@angular/forms';
@@ -20,7 +19,9 @@ import { UserProductsComponent } from './user-products/user-products.component';
 import { UserDodComponent } from './user-dod/user-dod.component';
 import { UserContactsComponent } from './user-contacts/user-contacts.component';
 import { SellerSigninComponent } from './seller-signin/seller-signin.component';
-import { SellerSignupComponent } from './seller-signup/seller-signup.component'; 
+import { SellerSignupComponent } from './seller-signup/seller-signup.component';
+import { UserProductDetailsComponent } from './user-product-details/user-product-details.component';
+import { UserCartComponent } from './user-cart/user-cart.component'; 
 
 
 @NgModule({
@@ -28,7 +29,6 @@ import { SellerSignupComponent } from './seller-signup/seller-signup.component';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    DetailspageComponent,
     SignupComponent,
     SigninComponent,
     UserHomeComponent,
@@ -37,7 +37,9 @@ import { SellerSignupComponent } from './seller-signup/seller-signup.component';
     UserDodComponent,
     UserContactsComponent,
     SellerSigninComponent,
-    SellerSignupComponent
+    SellerSignupComponent,
+    UserProductDetailsComponent,
+    UserCartComponent
   ],
   imports: [
     BrowserModule,

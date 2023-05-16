@@ -1,0 +1,38 @@
+body{
+   background-color: rgb(241, 150, 150);
+   height: 500vh;
+   margin-top: 0px;
+}
+.avatar {
+height: 100px;
+}
+li{
+   display: inline;
+}
+.comments-list {
+   margin-top: 70px;
+}
+.rating{
+   padding-left: 0px;
+}
+.fas {
+color: #f8e704;
+}
+h5{
+   color: white;
+}
+.mb-0{
+   color: #4194f2;
+}
+h3{
+   color:white;
+}
+p{
+   color: white;
+}
+strong{
+   color: black;
+}
+s{
+   color: #000;
+}
